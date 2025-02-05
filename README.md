@@ -5,7 +5,7 @@ How to use:
 First, create a file named `hiddenfile.txt` and paste in your Google API key.
 
 
-Create a virtual environment, activate the environment and then make sure you install all required dependencies by running
+Create a Python virtual environment, activate the environment and then make sure you install all required dependencies by running
 
 `pip install -r requirements.txt`
 
