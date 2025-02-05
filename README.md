@@ -2,7 +2,7 @@ A script that uses Google's Gemini API to allow users to ask questions to Google
 
 How to use:
 
-First, create a file named `hiddenfile.txt` and paste in your Google API key.
+First, create a file named `hiddenfile.txt` and paste in your Google API key as the first line in the file.
 
 
 Create a Python virtual environment, activate the environment and then make sure you install all required dependencies by running
