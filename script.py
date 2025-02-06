@@ -1,4 +1,5 @@
 from google import genai
+import numpy as np
 import sys
 import time
 
@@ -36,8 +37,13 @@ while True:
             print(word, end=' ')
         else:
             print(word, end='')
-        
-        time.sleep(0.0004)
+    
+        mean = 0
+        sdev = 0.0001 / 2
+        numsamples = 1
+        noise = np.random.normal(mean, sdev, numsamples)
+
+        time.sleep(0.0004 + noise[0])
     
 
     
