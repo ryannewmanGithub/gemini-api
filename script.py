@@ -46,6 +46,7 @@ while True:
                 print(word, end=' ')
             else:
                 print(word, end='')
+                print()
         
             mean = 0
             sdev = 0.0001 / 2
