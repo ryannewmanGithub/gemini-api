@@ -1,5 +1,6 @@
 from google import genai
 import sys
+import time
 
 FILENAME = "hiddenfile.txt"
 
@@ -22,4 +23,21 @@ while True:
         contents=userinput,
     )
 
-    print(response.text)
+    #print(response.text)
+
+    txt = response.text
+    word_list = txt.split(" ")
+    
+    last = len(word_list)
+
+    for i in range(last):
+        word = word_list[i]
+        if i != last - 1:
+            print(word, end=' ')
+        else:
+            print(word, end='')
+        
+        time.sleep(0.0004)
+    
+
+    
