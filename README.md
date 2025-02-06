@@ -10,5 +10,7 @@ Create a Python virtual environment, activate the environment and then make sure
 `pip install -r requirements.txt`
 
 After that, simply go to your terminal and run `python script.py` and begin asking questions to Gemini!
+If you want the LLM's response to be all at once instead of word-by-word, you can add the -q flag:
+`python script.py -q`
 
 You can exit the program by entering the word `exit`.
